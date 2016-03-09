@@ -3,7 +3,7 @@
 
 body
   +font-smoothing // <- _mixins.scss
-  color: $vigetNavy
+  color: $rwbGreen
   font-family: OpenSans, sans-serif
   font-size: 1.25em
   padding: 5%
@@ -14,7 +14,7 @@ small
   margin-top: 0.25em
 
 code
-  background-color: $light-grey
+  background-color: $lightGrey
   border-radius: 3px
   display: inline-block
   font-family: monospace
@@ -22,7 +22,7 @@ code
   padding: 0.25em 0.5em
 
 a
-  color: $red
+  color: $link
   text-decoration: none
   opacity: 1
   // autoprefixer will prefix this for you!
@@ -36,7 +36,7 @@ a
   position: absolute !important
 
 .highlight
-  background-color: $vigetBlue
+  background-color: $rwbGreen
   color: white
 
 .icon
@@ -44,7 +44,7 @@ a
   margin: 4px
 
   &.-instagram
-    color: $dark-grey
+    color: $darkGrey
 
   &.-facebook
     color: $facebookBlue
@@ -60,7 +60,7 @@ a
   width: 32px
 
   &.-instagram
-    fill: $dark-grey
+    fill: $darkGrey
 
   &.-facebook
     fill: $facebookBlue
@@ -69,8 +69,7 @@ a
     fill: $twitterBlue
 
   // 2 Dynamic colors + hard coded colors!
-  &.-viget
-    color: $vigetOrange // little circle
-    fill: $vigetBlue // big circle
+  &.-rwb
+    color: $darkGrey // little circle
+    fill: $rwbGreen // big circle
     width: 180px
-    // Viget text color hard coded in svg fill attribute

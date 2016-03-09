@@ -3,17 +3,17 @@
     {
       "id": "twitter",
       "title": "Twitter",
-      "url": "https://twitter.com/viget"
+      "url": "https://twitter.com/"
     },
     {
       "id": "facebook",
       "title": "Facebook",
-      "url": "https://www.facebook.com/vigetlabs"
+      "url": "https://www.facebook.com/"
     },
     {
       "id": "instagram",
       "title": "Instagram",
-      "url": "https://instagram.com/viget"
+      "url": "https://instagram.com/"
     }
   ]
 }

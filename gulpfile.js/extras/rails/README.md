@@ -12,8 +12,8 @@ In production (`npm run production`), filenames get hashed so you can cache them
 
 ```ruby
 gulp_asset_path('image/asset.jpg') # -> /image/logo-n39o4orb81.png
-gulp_js_path('app.js')             # -> /javascripts/app-f43e9abc11.js
-gulp_css_path('app.css')           # -> /stylesheets/app-d29e4cdb76.css
+gulp_js_path('app.js')             # -> /js/app-f43e9abc11.js
+gulp_css_path('app.css')           # -> /css/app-d29e4cdb76.css
 gulp_img_path('logo.png')          # -> /images/logo-n39o4orb81.png
 ```
 
@@ -43,8 +43,8 @@ The asset path helpers check for the existence a rev-manifest.json file, generat
 
 ```json
 {
-  "javascripts/app.js":  "app-f43e9abc11.js",
-  "stylesheets/app.css":  "app-d29e4cdb76.css"
+  "js/app.js":  "app-f43e9abc11.js",
+  "css/app.css":  "app-d29e4cdb76.css"
 }
 ```
 And so on. This initializer file reads and caches the object in production. In development, the file is constantly checked for and read. The asset helpers read this and find strings matching the key, and replace them with their hashed value.

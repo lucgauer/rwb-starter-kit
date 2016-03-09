@@ -22,7 +22,7 @@ class GulpRevTwigExtension extends Twig_Extension
     /**
      * The "gulp_rev" filter checks a manifest file to properly rev assets.
      *
-     * Usage: {{ "assets/stylesheets/app.css" | gulp_rev }}
+     * Usage: {{ "assets/css/app.css" | gulp_rev }}
      */
     public function gulpRev($file)
     {

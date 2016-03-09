@@ -17,8 +17,8 @@
     },
 
     "js": {
-      "src": "javascripts",
-      "dest": "javascripts",
+      "src": "js",
+      "dest": "js",
       "extractSharedJs": true,
       "entries": {
         "app": ["./app.js"],
@@ -28,8 +28,8 @@
     },
 
     "css": {
-      "src": "stylesheets",
-      "dest": "stylesheets",
+      "src": "css",
+      "dest": "css",
       "autoprefixer": {
         "browsers": ["last 3 version"]
       },
