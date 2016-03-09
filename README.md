@@ -1,1 +1,1 @@
-Rwb Starter Kit é um conjunto de ferramentas já configuradas para o facilitar o desenvolvimento do seu site com foco em <i>web performance</i>.
+Rwb Starter Kit é um <strong>conjunto de ferramentas</strong>, já configuradas, feito para o facilitar o desenvolvimento do seu site com foco em <i>web performance</i>.
