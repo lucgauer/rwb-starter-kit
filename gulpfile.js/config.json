@@ -1,24 +1,24 @@
 {
   "root": {
     "src": "./src",
-    "dest": "./public"
+    "dest":  "./"
   },
 
   "tasks": {
     "browserSync": {
       "server": {
-        "baseDir": "public"
+        "baseDir": ["views", "."]
       }
     },
 
     "static": {
-      "src": "static",
-      "dest": "./"
+      "src": "assets/frontend/static",
+      "dest": "./assets/frontend/"
     },
 
     "js": {
-      "src": "js",
-      "dest": "js",
+      "src": "assets/frontend/js",
+      "dest": "assets/frontend/js",
       "extractSharedJs": true,
       "entries": {
         "app": ["./app.js"],
@@ -28,8 +28,8 @@
     },
 
     "css": {
-      "src": "css",
-      "dest": "css",
+      "src": "assets/frontend/css",
+      "dest": "assets/frontend/css",
       "autoprefixer": {
         "browsers": ["last 3 version"]
       },
@@ -40,8 +40,8 @@
     },
 
     "html": {
-      "src": "html",
-      "dest": "./",
+      "src": "views",
+      "dest": "./views",
       "dataFile": "data/global.json",
       "htmlmin": {
         "collapseWhitespace": true
@@ -51,27 +51,27 @@
     },
 
     "images": {
-      "src": "images",
-      "dest": "images",
+      "src": "assets/frontend/images",
+      "dest": "assets/frontend/images",
       "extensions": ["jpg", "png", "svg", "gif"]
     },
 
     "fonts": {
-      "src": "fonts",
-      "dest": "fonts",
+      "src": "assets/frontend/fonts",
+      "dest": "assets/frontend/fonts",
       "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
     },
 
     "iconFont": {
-      "src": "icons",
-      "dest": "fonts",
+      "src": "assets/frontend/icons",
+      "dest": "assets/frontend/fonts",
       "sassDest": "generated",
       "extensions": ["woff2", "woff", "eot", "ttf", "svg"]
     },
 
     "svgSprite": {
-      "src": "sprites",
-      "dest": "images",
+      "src": "assets/frontend/sprites",
+      "dest": "assets/frontend/images",
       "extensions": ["svg"]
     }
   }

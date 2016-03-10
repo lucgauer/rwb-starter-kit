@@ -1,12 +1,13 @@
 {# templating imports #}
 {% from 'macros/helpers.html' import sprite %}
+{% set assetsPath = 'assets/frontend/' %}
 
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="utf-8">
   <title>{% block title %}{% endblock %}</title>
-  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="{{ assetsPath }}css/global.css">
   {% include "shared/app-icons.html" %}
   {% block head %}{% endblock %}
 </head>
@@ -18,7 +19,7 @@
   {% endblock %}
   <footer>
   </footer>
-  <script src="js/shared.js"></script>
+  <script src="{{ assetsPath }}js/shared.js"></script>
   {#  #}
   {% block javascript %}{% endblock %}
 </body>
